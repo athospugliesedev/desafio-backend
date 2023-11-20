@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "node src/server.js",
     "lint": "jshint .",
-    "test": "jest"
+    "test": "jest",
+    "vercel-build": "npx prisma generate && npx prisma migrate deploy",
+    "postinstall": "prisma generate"
   },
   "keywords": [],
   "author": "",

@@ -8,7 +8,7 @@ describe('UserController', () => {
         .post('/signup')
         .send({
           nome: 'Test User',
-          email: 'teste@example.com',
+          email: 'testeee@example.com',
           senha: 'password123',
           telefones: [{ numero: '123456789', ddd: '11' }],
         });
